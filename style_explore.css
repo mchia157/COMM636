@@ -37,3 +37,9 @@ h1{
 .expensive{
     background-color: red;
 }
+
+img {
+    max-width: 20%;
+    height: auto;
+    border: 2px solid rgb(128, 128, 76);
+}
