@@ -38,8 +38,27 @@ h1{
     background-color: red;
 }
 
-img {
-    max-width: 20%;
-    height: auto;
-    border: 2px solid rgb(128, 128, 76);
+/* .artpieces {
+    display: flex;
+    gap: 20px;
+} */
+
+figure {
+    display: flex;
+    flex-direction: column; /* For image and caption */
+    align-items: center;
+    text-align: center;
 }
+
+figcaption {
+    margin-top: 10px; /* Space between image and caption */
+    font-size: 14px;
+    color:  black; /* Optional: text color */
+}
+
+img {
+    max-width: 20%; /* Responsive images */
+    height: auto;
+    border-radius: 8px; 
+}
+
