@@ -32,7 +32,7 @@ canvas.width = canvas.offsetHeight;
 canvas.height = canvas.offsetHeight;
 
 drawing.strokeStyle = "#000000";
-drawing.lineWidth = 10;
+drawing.lineWidth = 8;
 drawing.lineCap = "round";
 
 let carving = false;
